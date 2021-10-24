@@ -1,10 +1,7 @@
 :root {
     --color-one:#07A8A7;
-    --color-two: #2FF5F3;
-    --color-three: #F516BD;
     --color-four: #F5D42F;
     --color-five: #A82086;
-    --color-six: #4D0B3C;
     --color-seven: #0B3030;
     --body-background: rgb(238, 238, 238);
     --text-color: rgb(243, 243, 243);
@@ -115,12 +112,12 @@ footer {
     background-color: var(--body-background);
     margin-top: 2em;
     font-size: 14px;
-    /* color: var(--text-color); */
     padding: 2em;
 }
 
 footer a {
-    color: var(--color-one);
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-five);
     text-decoration: none;
 }
 
