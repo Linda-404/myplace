@@ -1,8 +1,8 @@
 :root {
-    --color-one:#07A8A7;
-    --color-four: #F5D42F;
-    --color-five: #A82086;
-    --color-seven: #0B3030;
+    --green:#07A8A7;
+    --yellow: #F5D42F;
+    --purple: #A82086;
+    --dark-green: #0B3030;
     --body-background: rgb(238, 238, 238);
     --text-color: rgb(243, 243, 243);
 }
@@ -20,6 +20,7 @@ h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
     color: var(--text-color);
+    text-shadow: 1px 1px 2px var(--dark-green);
 }
 
 h2 {
@@ -27,7 +28,7 @@ h2 {
     font-size: 35px;
     color: var(--text-color);
     font-weight: bold;
-    text-shadow: 1px 1px 2px var(--color-seven);
+    text-shadow: 1px 1px 2px var(--dark-green);
 }
 
 h3 {
@@ -35,12 +36,12 @@ h3 {
 }
 
 .header {
-    background-color: var(--color-four);
+    background-color: var(--yellow);
     padding: 0.5em 1em;
 }
 
 div.transparent {
-    background-color: var(--color-seven);
+    background-color: var(--dark-green);
     background: rgba(255, 249, 192, 0.7);
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -53,35 +54,35 @@ div.transparent {
 .navbar-brand {
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
-    color: var(--color-seven);
+    color: var(--dark-green);
 }
 
 span {
-    color: var(--color-seven);
+    color: var(--dark-green);
     font-weight: bold;
 }
 
 .navbar-brand:hover {
-    color: var(--color-seven);
+    color: var(--dark-green);
 }
 .nav-link {
     font-family: 'Raleway', sans-serif;
     color: rgb(51, 51, 51); 
 }
 .nav-link:hover {
-    color: var(--color-one);
+    color: var(--green);
 }
 .active {
-    color: var(--color-one);
+    color: var(--green);
 }
 
 .btn {
-    background-color: var(--color-four);
+    background-color: var(--yellow);
     color: var(--text-color);
-    border: var(--color-four);
+    border: var(--yellow);
 }
 .navbar-toggler {
-    color: var(--color-one);
+    color: var(--green);
     font-size: 10px;
 }
 .content_cover {
@@ -117,7 +118,7 @@ footer {
 
 footer a {
     font-family: 'Raleway', sans-serif;
-    color: var(--color-five);
+    color: var(--purple);
     text-decoration: none;
 }
 
