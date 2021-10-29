@@ -16,6 +16,13 @@ body {
     background-position: center center;
 }
 
+.wrapper {
+    flex: 1 0 auto;
+}
+
+
+/* typography */
+
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
@@ -35,9 +42,12 @@ h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* general styles */
+
 .header {
     background-color: var(--yellow);
     padding: 0.5em 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.transparent {
@@ -46,6 +56,8 @@ div.transparent {
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
+
+/* navbar */
 
 .navbar {
     background-color: var(--body-background);
@@ -85,6 +97,9 @@ span {
     color: var(--green);
     font-size: 10px;
 }
+
+/* home styles */
+
 .content_cover {
     height: 400px;
     background-size: cover;
@@ -104,14 +119,86 @@ span {
     align-items: center;
 }
 
+/* productpage styles */
 
+.banner-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner-cont {
+    width: 90%;
+    height: 400px;
+    filter: drop-shadow(8px 8px 10px black);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* .banner-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.banner-container {
+    width: 70%;
+    position: relative;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    filter: saturate(80%);
+    filter: drop-shadow(8px 8px 10px black);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 2px;
+}
+
+.decorations-header {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+} */
+
+.carousel-control-prev-icon {
+    color: var(--dark-green);
+}
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-heading {
+    margin-top: 1em;
+}
+.card-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-icon {
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* footer style */
 
 footer {
     display: flex;
     flex-shrink: 0;
     justify-content: space-around;
     background-color: var(--body-background);
-    margin-top: 2em;
+    margin-top: 4em;
     font-size: 14px;
     padding: 2em;
 }
@@ -126,6 +213,3 @@ footer a:hover {
     color: var(--text-color);
 }
 
-.wrapper {
-    flex: 1 0 auto;
-}
