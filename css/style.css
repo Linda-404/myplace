@@ -1,6 +1,9 @@
 :root {
+    --light-green:#3efafa;
     --green:#07A8A7;
+    --light-yellow: #f5db5b;
     --yellow: #F5D42F;
+    --dark-yellow: #c7ad29;
     --purple: #A82086;
     --dark-green: #0B3030;
     --body-background: rgb(238, 238, 238);
@@ -26,6 +29,7 @@ body {
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
+    font-weight: bold;
     color: var(--text-color);
     text-shadow: 1px 1px 2px var(--dark-green);
 }
@@ -38,8 +42,23 @@ h2 {
     text-shadow: 1px 1px 2px var(--dark-green);
 }
 
-h3 {
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    /* color: #000; */
+    background-image: linear-gradient(var(--light-green), var(--green), var(--green), var(--green), var(--light-green));
+    /* text-shadow: 1px 1px 1px var(--dark-green); */
 }
 
 /* general styles */
